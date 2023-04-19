@@ -83,15 +83,16 @@ margin-bottom: 1.5625rem;
 .contact-aside__tittle{
     font-size: 1.5625rem;
     font-weight: 700;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.5625rem;
 } 
 
 .contact-aside__phone{
-margin-bottom: 0.625rem;
+    margin-bottom: 0.625rem;
+    font-size: 1.25rem;
 } 
 
 .contact-aside__mail{
-
+    font-size: 1.25rem;
 } 
 
 /*---------------about main--------------*/
@@ -108,6 +109,7 @@ margin-bottom: 0.625rem;
 /*-----------------EXPERIENCE-----------*/
 .about-main__experience{
     margin-bottom: 2.1875rem;
+    font-size: 1.125rem;
 } 
 .experience__job{
 
@@ -156,6 +158,7 @@ margin-bottom: 0.625rem;
 /*------------EDUCATION-------------*/
 .about-main__education{
     margin-bottom: 2.1875rem;
+    font-size: 1.125rem;
 }
 .education{
 
@@ -205,6 +208,7 @@ margin-bottom: 0.625rem;
 
 /*--------SKILLS----------*/
 .about-main__skills{
+    font-size: 1.125rem;
     margin-bottom: 2.1875rem;
 }
 .skills{
@@ -258,6 +262,7 @@ margin-bottom: 0.625rem;
 
 /*-----------LANGUAGES---------------*/
 .about-main__languages{
+    font-size: 1.125rem;
     margin-bottom: 2.1875rem;
 }
 .languages{
@@ -288,6 +293,46 @@ margin-bottom: 0.625rem;
 } 
 
 .languages__image{
+
+} 
+
+
+
+/*------------------HOBBIES--------------------*/
+.about-main__hobbies{
+    font-size: 1.125rem;
+} 
+
+.hobbies{
+
+} 
+
+.hobbies__tittle{
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 2.8125rem;
+    position: relative;
+} 
+.hobbies__tittle::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0.125rem;
+    width: 100%;
+    height: 0.125rem;
+    background-color: #000000;
+    margin: 0 auto;
+}
+.hobbies__content{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    justify-content: center;
+    column-gap: 35px;
+} 
+
+.hobbies__image{
 
 } 
 
