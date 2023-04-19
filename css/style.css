@@ -327,9 +327,9 @@ margin-bottom: 1.5625rem;
 }
 .hobbies__content{
     display: grid;
-    grid-template-columns: repeat(4,100px);
+    grid-template-columns: repeat(4,6.25rem);
     justify-content: center;
-    column-gap: 35px;
+    column-gap: 2.1875rem;
 } 
 
 .hobbies__image{
