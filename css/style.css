@@ -201,3 +201,57 @@ margin-bottom: 0.625rem;
 .experience__paragraph{
 
 } 
+
+
+/*--------SKILLS----------*/
+.about-main__skills{
+    margin-bottom: 2.1875rem;
+}
+.skills{
+
+}
+.skills__tittle{
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 2.8125rem;
+    position: relative;
+}
+.skills__tittle::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0.125rem;
+    width: 100%;
+    height: 0.125rem;
+    background-color: #000000;
+    margin: 0 auto;
+}
+.skills__content{
+    display: flex;
+    gap: 3.4375rem;
+    align-items: center;
+}
+.skills__names{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+} 
+.skills__name{
+    font-weight: 700;
+}
+.skills__name:not(:last-child){
+    
+}
+
+.skills__points{
+    display: flex;
+    flex-direction: column;
+    gap: 0.9375rem;
+} 
+
+.skills__image{
+    display: flex;
+    gap: 1.25rem;
+} 
