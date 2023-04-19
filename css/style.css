@@ -8,10 +8,10 @@ body{
 }
 
 [class*="__container"]{
-    max-width: 1140px;
+    max-width: 71.25rem;
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
 }
 
 /*-------------------*/
@@ -26,48 +26,48 @@ body{
 } 
 /* -------Aside------------- */
 .aside-main{
-    flex: 0 1 420px;
+    flex: 0 1 26.25rem;
     background-color: #212121;
     color: #D2D2D2;
-    padding: 70px 60px 70px 60px;
+    padding: 4.375rem 3.75rem 4.375rem 3.75rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 } 
 
 .aside-main__image{
-    margin-bottom: 30px;
-    border: 5px solid #D2D2D2;
+    margin-bottom: 1.875rem;
+    border: 0.3125rem solid #D2D2D2;
 } 
 .aside-main__image img{
     max-width: 100%;
 }
 .aside-main__tittle{
-    font-size: 60px;
+    font-size: 3.75rem;
     line-height: 1.2;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
     font-weight: 700;
     text-align: center;
 } 
 
 .aside-main__subtittle{
-    font-size: 25px;
-    margin-bottom: 60px;
+    font-size: 1.5625rem;
+    margin-bottom: 3.75rem;
 } 
 
 .aside-main__text{
-    max-width: 280px;
+    max-width: 17.5rem;
 }
 .aside-main__profile{
 text-align: center;
 font-weight: 700;
-font-size: 25px;
-margin-bottom: 25px;
+font-size: 1.5625rem;
+margin-bottom: 1.5625rem;
 } 
 
 .aside-main__paragraph{
-    font-size: 20px;
-    margin-bottom: 60px;
+    font-size: 1.25rem;
+    margin-bottom: 3.75rem;
     line-height: 1.2;
     text-align: justify;
 } 
@@ -81,13 +81,13 @@ margin-bottom: 25px;
 } 
 
 .contact-aside__tittle{
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 } 
 
 .contact-aside__phone{
-margin-bottom: 10px;
+margin-bottom: 0.625rem;
 } 
 
 .contact-aside__mail{
@@ -98,30 +98,30 @@ margin-bottom: 10px;
 
 .about-main{
     background-color: #FFFAF1;
-    padding: 70px 45px 70px 45px;
+    padding: 4.375rem 2.8125rem 4.375rem 2.8125rem;
 }
 
 .about-main__content{
-    flex: 0 1 435px;
+    flex: 0 1 27.1875rem;
     color: #716F70;
 }
-
+/*-----------------EXPERIENCE-----------*/
 .about-main__experience{
-    margin-bottom: 35px;
+    margin-bottom: 2.1875rem;
 } 
 .experience__job{
 
 }
 .experience__job:not(:last-child){
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .experience__exp{
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: 700;
     line-height: 1.5;
     color: #000000;
-    margin-bottom: 45px;
+    margin-bottom: 2.8125rem;
     position: relative;
 } 
 
@@ -130,7 +130,7 @@ margin-bottom: 10px;
     content: '';
     position: absolute;
     bottom: 0;
-    left: 2px;
+    left: 0.125rem;
     width: 100%;
     height: 0.125rem;
     background-color: #000000;
@@ -140,14 +140,62 @@ margin-bottom: 10px;
 .experience__work{
     font-weight: 700;
     line-height: 1.2;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     
 } 
 
 .experiencs__company{
     font-weight: 700;
     line-height: 1.2;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
+} 
+
+.experience__paragraph{
+
+} 
+/*------------EDUCATION-------------*/
+.about-main__education{
+    margin-bottom: 2.1875rem;
+}
+.education{
+
+}
+.education__tittle{
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 2.8125rem;
+    position: relative;
+} 
+.education__tittle:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0.125rem;
+    width: 100%;
+    height: 0.125rem;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.education__text{
+
+} 
+.education__text:not(:last-child){
+    margin-bottom: 1.875rem;
+}
+
+.education__name{
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.625rem;
+} 
+
+.education__university{
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 0.3125rem;
 } 
 
 .experience__paragraph{
