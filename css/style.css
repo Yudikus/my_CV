@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: Roboto, sans-serif;
+    
+   
+
+}
+
+[class*="__container"]{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*-------------------*/
+
+
+.main-page__container{
+    display: flex;
+} 
+
+.main-page__aside{
+
+} 
+/* -------Aside------------- */
+.aside-main{
+    flex: 0 1 420px;
+    background-color: #212121;
+    color: #D2D2D2;
+    padding: 70px 60px 70px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.aside-main__image{
+    margin-bottom: 30px;
+    border: 5px solid #D2D2D2;
+} 
+.aside-main__image img{
+    max-width: 100%;
+}
+.aside-main__tittle{
+    font-size: 60px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    font-weight: 700;
+    text-align: center;
+} 
+
+.aside-main__subtittle{
+    font-size: 25px;
+    margin-bottom: 60px;
+} 
+
+.aside-main__text{
+    max-width: 280px;
+}
+.aside-main__profile{
+text-align: center;
+font-weight: 700;
+font-size: 25px;
+margin-bottom: 25px;
+} 
+
+.aside-main__paragraph{
+    font-size: 20px;
+    margin-bottom: 60px;
+    line-height: 1.2;
+    text-align: justify;
+} 
+
+.aside-main__contact{
+    
+} 
+
+.contact-aside{
+
+} 
+
+.contact-aside__tittle{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+} 
+
+.contact-aside__phone{
+margin-bottom: 10px;
+} 
+
+.contact-aside__mail{
+
+} 
+
+
+.about-main{
+    /* background: linear-gradient(0deg, hsla(0, 0%, 95%, 1) 0%, hsla(0, 0%, 85%, 1) 100%); */
+}
+
+.about-main__content{
+    /* flex: 0 1 435px; */
+}
