@@ -255,3 +255,39 @@ margin-bottom: 0.625rem;
     display: flex;
     gap: 1.25rem;
 } 
+
+/*-----------LANGUAGES---------------*/
+.about-main__languages{
+    margin-bottom: 2.1875rem;
+}
+.languages{
+
+}
+.languages__tittle{
+    font-size: 1.875rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #000000;
+    margin-bottom: 2.8125rem;
+    position: relative;
+} 
+.languages__tittle::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0.125rem;
+    width: 100%;
+    height: 0.125rem;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.languages__content{
+    display: flex;
+    justify-content: space-around;
+} 
+
+.languages__image{
+
+} 
+
