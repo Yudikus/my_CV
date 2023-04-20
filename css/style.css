@@ -39,9 +39,9 @@ body{
    
     .hobbies__content{
         display: grid;
-        grid-template-columns: repeat(2,6.25rem);
+        grid-template-columns: repeat(2,  6.25rem);
         justify-content: center;
-        column-gap: 1.1875rem;
+        column-gap: 1.625rem;
     }
     .languages__content{
         display: flex;
@@ -365,7 +365,7 @@ margin-bottom: 1.5625rem;
 }
 .hobbies__content{
     display: grid;
-    grid-template-columns: repeat(4,6.25rem);
+    grid-template-columns: repeat(auto-fill, minmax(6.25rem, 1fr));
     justify-content: center;
     column-gap: 2.1875rem;
 } 
