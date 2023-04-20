@@ -36,8 +36,8 @@ body{
         flex-direction: column;
 		/* max-width: none; */
 	}
-    body{
-        overflow:hidden;
+    html, body {
+        overflow-x: hidden;
     }
 }
 
