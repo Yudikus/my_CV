@@ -36,9 +36,7 @@ body{
         flex-direction: column;
 		/* max-width: none; */
 	}
-    html, body {
-        overflow-x: hidden;
-    }
+   
     .hobbies__content{
         display: grid;
         grid-template-columns: repeat(2,6.25rem);
