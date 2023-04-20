@@ -45,6 +45,13 @@ body{
         justify-content: center;
         column-gap: 1.1875rem;
     }
+    .languages__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+    } 
 }
 
 /*-------------------*/
