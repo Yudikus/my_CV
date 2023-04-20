@@ -2,9 +2,6 @@
 	[class*="__container"] {
 		max-width: 970px;
 	}
-    h1{
-        color: red;
-    }
 }
 
 @media (max-width: 990.98px) {
