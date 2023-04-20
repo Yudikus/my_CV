@@ -39,6 +39,12 @@ body{
     html, body {
         overflow-x: hidden;
     }
+    .hobbies__content{
+        display: grid;
+        grid-template-columns: repeat(2,6.25rem);
+        justify-content: center;
+        column-gap: 1.1875rem;
+    }
 }
 
 /*-------------------*/
