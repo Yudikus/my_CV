@@ -8,7 +8,7 @@ body{
 }
 
 [class*="__container"]{
-    max-width: 1140px;
+    max-width: 1200px;
     margin: 0 auto;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
@@ -20,8 +20,15 @@ body{
 
 
 .main-page__container{
+    background: linear-gradient(90deg, rgba(255,250,241,1) 40%, rgba(33,33,33,1) 40%);
+}
+.main-page__content{
     display: flex;
-} 
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
 
 .main-page__aside{
 

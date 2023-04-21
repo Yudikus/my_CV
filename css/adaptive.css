@@ -1,21 +1,28 @@
 @media (max-width: 1139.98px){
-	[class*="__container"] {
+	.main-page__content {
 		max-width: 970px;
 	}
 }
 
 @media (max-width: 990.98px) {
-	[class*="__container"] {
+    [class*="__container"]{
+        max-width: 900px;
+    }
+	.main-page__content{
 		max-width: 750px; 
 	}
 }
 
 @media (max-width: 767.98px) {
-	[class*="__container"] {
+    [class*="__container"]{
+        padding: 0;
+        background: none;
+    }
+	.main-page__content{
 		max-width: 450px;
         display: flex;
         flex-direction: column;
-		/* max-width: none; */
+		
 	}
    
     .hobbies__content{
