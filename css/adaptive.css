@@ -1,28 +1,39 @@
 @media (max-width: 1139.98px){
 	.main-page__content {
-		max-width: 970px;
+		max-width: 900px;
 	}
+    .main-page__container{
+    background: linear-gradient(90deg, rgba(255,250,241,1) 44%, rgba(33,33,33,1) 44%);
+    }
 }
 
 @media (max-width: 990.98px) {
-    [class*="__container"]{
-        max-width: 900px;
-    }
-	.main-page__content{
-		max-width: 750px; 
+    .main-page__container{
+        background: linear-gradient(90deg, rgba(255,250,241,1) 48%, rgba(33,33,33,1) 48%);
+        }
+    .main-page__content {
+		max-width: 800px;
 	}
+	
 }
 
 @media (max-width: 767.98px) {
+   
+    .aside-main__paragraph{
+      
+    }
+}
+
+@media (max-width: 480px){
     [class*="__container"]{
         padding: 0;
         background: none;
     }
 	.main-page__content{
-		max-width: 450px;
+		max-width: 100%;
         display: flex;
         flex-direction: column;
-		
+		padding-top: 0;
 	}
    
     .hobbies__content{
