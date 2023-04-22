@@ -50,10 +50,10 @@
         background: none;
     }
 	.main-page__content{
-		max-width: 25rem;
         display: flex;
         flex-direction: column;
 		padding-top: 0;
+        padding-bottom: 0;
 	}
    
     .hobbies__content{
