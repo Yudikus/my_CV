@@ -18,9 +18,32 @@
 }
 
 @media (max-width: 767.98px) {
+    [class*="__container"]{
+        padding: 0;
+        background: none;
+    }
+	.main-page__content{
+		max-width: 100%;
+        display: flex;
+        flex-direction: column;
+		padding-top: 0;
+	}
    
-    .aside-main__paragraph{
-      
+    .hobbies__content{
+        display: grid;
+        grid-template-columns: repeat(2,  6.25rem);
+        justify-content: center;
+        column-gap: 1.625rem;
+    }
+    .languages__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+    } 
+    .aside-main__text{
+        max-width: 100%;
     }
 }
 
@@ -49,4 +72,7 @@
         align-items: center;
         gap: 0.625rem;
     } 
+    .aside-main__text{
+        max-width: 100%;
+    }
 }
