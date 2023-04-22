@@ -32,7 +32,6 @@
     .hobbies__content{
         display: grid;
         grid-template-columns: repeat(2,  6.25rem);
-        justify-content: start;
         column-gap: 1.625rem;
     }
     .languages__content{
@@ -66,6 +65,7 @@
     .languages__content{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         gap: 0.625rem;
     } 
