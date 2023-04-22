@@ -32,14 +32,12 @@
     .hobbies__content{
         display: grid;
         grid-template-columns: repeat(2,  6.25rem);
-        justify-content: center;
+        justify-content: start;
         column-gap: 1.625rem;
     }
     .languages__content{
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: start;
         gap: 0.625rem;
     } 
     .aside-main__text{
@@ -53,7 +51,7 @@
         background: none;
     }
 	.main-page__content{
-		max-width: 100%;
+		max-width: 25rem;
         display: flex;
         flex-direction: column;
 		padding-top: 0;
