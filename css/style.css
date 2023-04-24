@@ -6,7 +6,6 @@ body{
 }
 
 
-
 [class*="__container"]{
     max-width: 1200px;
     min-width: 1000px;
