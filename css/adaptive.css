@@ -1,6 +1,6 @@
-@media (max-width: 1139.98px){
+@media (max-width: 1200){
 	.main-page__content {
-		max-width: 900px;
+		max-width: 970px;
 	}
     .main-page__container{
     background: linear-gradient(90deg, rgba(255,250,241,1) 44%, rgba(33,33,33,1) 44%);
@@ -12,7 +12,7 @@
         background: linear-gradient(90deg, rgba(255,250,241,1) 48%, rgba(33,33,33,1) 48%);
         }
     .main-page__content {
-		max-width: 800px;
+		max-width: 750px;
 	}
 	
 }
@@ -21,6 +21,7 @@
     [class*="__container"]{
         padding: 0;
         background: none;
+        max-width: none;
     }
 	.main-page__content{
 		max-width: 100%;
@@ -56,6 +57,7 @@
         flex-direction: column;
 		padding-top: 0;
         padding-bottom: 0;
+        max-width: none;
 	}
    
     .hobbies__content{
