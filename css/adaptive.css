@@ -50,8 +50,6 @@
     [class*="__container"]{
         padding: 0;
         background: none;
-        max-width: none;
-        min-width: none;
     }
 	.main-page__content{
         display: flex;
