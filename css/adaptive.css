@@ -49,9 +49,9 @@
     [class*="__container"]{
         padding: 0;
         background: none;
+        max-width: none;
     }
 	.main-page__content{
-        max-width: 400px;
         display: flex;
         flex-direction: column;
 		padding-top: 0;
