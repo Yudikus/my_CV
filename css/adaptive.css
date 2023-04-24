@@ -75,4 +75,17 @@
     .aside-main__text{
         max-width: 100%;
     }
+    .aside-main__image{
+        padding: 0 50% 65% 0;
+        overflow: hidden;
+        position: relative;
+    }
+    .aside-main__image img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+    }
 }
