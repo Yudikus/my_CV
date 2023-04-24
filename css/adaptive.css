@@ -50,14 +50,13 @@
     [class*="__container"]{
         padding: 0;
         background: none;
-        max-width: none;
+        max-width: 100%;
     }
 	.main-page__content{
         display: flex;
         flex-direction: column;
 		padding-top: 0;
         padding-bottom: 0;
-        max-width: none;
 	}
    
     .hobbies__content{
