@@ -7,9 +7,9 @@ body{
 
 
 [class*="__container"]{
-    max-width: 1200px;
+    /* max-width: 1200px;
     min-width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto; */
     
 }
 
@@ -19,36 +19,41 @@ body{
 
 
 .main-page__container{
-    background: linear-gradient(90deg, rgba(255,250,241,1) 44.5%, rgba(33,33,33,1) 44.5%);
+    background: linear-gradient(90deg, rgba(255,250,241,1) 41.5%, rgba(33,33,33,1) 41.5%);
 }
 .main-page__content{
     display: flex;
-    max-width: 56.25rem;
+    max-width: 85%;
+    /* max-width: 1000px; */
     margin: 0 auto;
     padding-top: 9.375rem;
     padding-bottom: 9.375rem;
 }
 
 .main-page__aside{
-
+max-width: 40%;
+flex-direction: row;
+justify-content: flex-end;
 } 
 /* -------Aside------------- */
 .aside-main{
-    flex: 0 1 40%;
+    
     background-color: #212121;
     color: #D2D2D2;
     padding: 4.375rem 3.75rem 4.375rem 3.75rem;
-    display: flex;
-    flex-direction: column;
     align-items: center;
 } 
 
 .aside-main__image{
+    margin: 0 auto;
+    max-width: 350px;
     margin-bottom: 1.875rem;
     border: 0.3125rem solid #D2D2D2;
+    position: relative;
 } 
 .aside-main__image img{
-    max-width: 100%;
+    width: 100%;
+    
 }
 .aside-main__tittle{
     font-size: 3.75rem;
@@ -61,10 +66,11 @@ body{
 .aside-main__subtittle{
     font-size: 1.5625rem;
     margin-bottom: 3.75rem;
+    text-align: center;
 } 
 
 .aside-main__text{
-    max-width: 17.5rem;
+    /* max-width: 17.5rem; */
 }
 .aside-main__profile{
 text-align: center;
@@ -74,10 +80,10 @@ margin-bottom: 1.5625rem;
 } 
 
 .aside-main__paragraph{
-    font-size: 1.25rem;
+    font-size: 18px;
     margin-bottom: 3.75rem;
-    line-height: 1.2;
-    text-align: justify;
+    line-height: 1.5;
+    text-align: center;
 } 
 
 .aside-main__contact{
@@ -107,12 +113,12 @@ margin-bottom: 1.5625rem;
 
 .about-main{
     background-color: #FFFAF1;
-    
+    max-width: 60%;
+    justify-content: flex-start;
 }
 
 .about-main__content{
     
-    flex: 0 1 60%;
     color: #716F70;
     padding: 4.375rem 2.8125rem 4.375rem 2.8125rem;
 }
@@ -299,7 +305,7 @@ margin-bottom: 1.5625rem;
 
 .languages__content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 8px;
 } 
 

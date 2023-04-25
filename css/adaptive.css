@@ -1,20 +1,49 @@
-@media (max-width: 1200){
-	.main-page__content {
-		max-width: 970px;
-	}
+@media (max-width: 1200px){
     .main-page__container{
-    background: linear-gradient(90deg, rgba(255,250,241,1) 44%, rgba(33,33,33,1) 44%);
+    background: linear-gradient(90deg, rgba(255,250,241,1) 45.5%, rgba(33,33,33,1) 45.5%);
+    }
+    .main-page__content {
+        max-width: 85%;
+	}
+    .main-page__aside{
+        max-width: 45%;
+    }
+    .about-main{
+        max-width: 60%;
     }
 }
 
 @media (max-width: 990.98px) {
     .main-page__container{
-        background: linear-gradient(90deg, rgba(255,250,241,1) 48%, rgba(33,33,33,1) 48%);
+        background: linear-gradient(90deg, rgba(255,250,241,1) 45.5%, rgba(33,33,33,1) 45.5%);
         }
     .main-page__content {
-		max-width: 750px;
+		max-width: 85%;
 	}
-	
+    .main-page__aside{
+        max-width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .about-main{
+        max-width: 55%;
+    }
+	.languages__content{
+        display: flex;
+        column-gap: 10px;
+        flex-wrap: wrap;
+    }
+    .aside-main__paragraph{
+        font-size: 16px;
+        margin-bottom: 3.75rem;
+        line-height: 1.2;
+        text-align: center;
+    } 
+    
+    .aside-main__tittle{
+        font-size: 50px;
+    }
 }
 
 @media (max-width: 767.98px) {
@@ -24,12 +53,17 @@
         max-width: none;
     }
 	.main-page__content{
-		max-width: 100%;
+        max-width: NONE;
         display: flex;
         flex-direction: column;
 		padding-top: 0;
 	}
-   
+    .about-main{
+        max-width: 100%;
+    }
+    .main-page__aside{
+        max-width: 100%;
+    }
     .hobbies__content{
         display: grid;
         grid-template-columns: repeat(2,  6.25rem);
@@ -43,6 +77,26 @@
     } 
     .aside-main__text{
         max-width: 100%;
+    }
+    .contact-aside__tittle{
+        text-align: center;
+    }
+    .contact-aside__inf{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        align-items: start;
+    }
+    .hobbies__content{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    .languages__content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
 }
 
