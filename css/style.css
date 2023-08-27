@@ -278,7 +278,21 @@ margin-bottom: 1.5625rem;
     display: flex;
     gap: 1.25rem;
 } 
-
+.skills__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 18px;
+    height: 18px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+.skills__item--border{
+    width: 18px;
+    height: 18px;
+    border: #000000 3px solid;
+    border-radius: 50%;
+}
 /*-----------LANGUAGES---------------*/
 .about-main__languages{
     font-size: 1.125rem;
